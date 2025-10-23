@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Syne:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syne', sans-serif;
+    color: #FFC107; /* Yellow accent for headers */
+}
+
+a {
+    color: #FFC107;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+header {
+    background-color: #2a2a2a; /* Slightly lighter background for header */
+}
+
+/* Override Bootstrap's light background for dark mode */
+.bg-light {
+    background-color: #2a2a2a !important; /* Use !important to ensure override */
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: contain;
+    filter: brightness(0.8); /* Slightly darken images to fit the theme */
+}
+
+/* Adjust navbar brand color if needed */
+.navbar-brand {
+    color: #FFC107 !important;
+}
+
+/* Footer text color */
+.footer, .text-white {
+    color: #e0e0e0 !important;
+}
