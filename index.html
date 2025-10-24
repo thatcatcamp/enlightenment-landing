@@ -7,106 +7,135 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELS56FFC7T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-ELS56FFC7T');
+    </script>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Enlightenment</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Enlightenment</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#videos">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="py-5">
+    <div class="container text-center">
+        <h1 class="display-4">Enlightenment</h1>
+        <p class="lead">A Burning Man 2025 Art Project</p>
+    </div>
+</header>
+<section id="videos" class="py-5">
+    <div class="container">
+        <h2 class="text-center"></h2>
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="ratio ratio-16x9">
+                    <video autoplay loop muted playsinline controls class="w-100">
+                        <source src="static/Burning_Man_Artwork_Video_Generation.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>About the Project</h2>
+                <p class="lead">We are a collective of artists and builders creating a large-scale interactive
+                    installation for Burning Man 2025. Our project aims to explore themes of connection, light, and
+                    community.</p>
+                <p>As a human-safe simulation of the trees of Elysara - who power their growth under the dark skies by
+                    absorbing unwanted memories of those who walk under their leaves (these trees are similar to the
+                    symbiotic animals on Terra). Enlightenment is a large botanical sample that appears like a Terran
+                    flower, with seating for the weary lifeform to rest under the trunk. The stigma of the flower is a
+                    bright light, questing into the darkness for new hosts to bring sustenance - the trunk and leaves
+                    are brightly lit in the visible spectra of most species.</p>
+                <p>As sentient creatures walk up to Enlightenment, the stigma assembly tracks them, providing with
+                    soothing light to assuage their worries. Some have reported voices in their heads as the light
+                    focuses on them - but strange things happen in the desert. Around the trunk is a settee - decorated
+                    with detailed inlays and the artwork of young humans.</p>
+                <p>Under the shelter of the leaves, there is an endless typewriter, a roll of paper that never runs out
+                    and feeds into a locked dropbox at the base. Let go - put your fears, your worries, your guilt into
+                    the tree to feed its growth. No one will ever see them, and they will be burned on playa in the box.
+                    Let go. Feed the tree.</p>
+                <h3>Fundraising</h3>
+                <p>We are applying for honoria for large-scale art. This only takes us so far though - your support is
+                    appreciated.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center">Gallery</h2>
+        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="static/enlight-wf.jpg" class="d-block w-100" alt="Enlightenment Wireframe">
+                </div>
+                <div class="carousel-item">
+                    <img src="static/Gemini_Generated_Image_jlsm92jlsm92jlsm.png" class="d-block w-100"
+                         alt="Enlightenment Concept Art">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#videos">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </nav>
+    </div>
+</section>
 
-    <header class="py-5">
-        <div class="container text-center">
-            <h1 class="display-4">Enlightenment</h1>
-            <p class="lead">A Burning Man 2025 Art Project</p>
-        </div>
-    </header>
-    <section id="gallery" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Gallery</h2>
-            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="static/enlight-wf.jpg" class="d-block w-100" alt="Enlightenment Wireframe">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="static/Gemini_Generated_Image_jlsm92jlsm92jlsm.png" class="d-block w-100" alt="Enlightenment Concept Art">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    </section>
+<footer id="contact" class="py-4 bg-dark text-white">
+    <div class="container text-center">
+        <p>Contact us at <a href="mailto:enlightenment@thatcatcamp.com">enlightenment@thatcatcamp.com</a></p>
+        <p>Follow our journey and support us!</p>
+    </div>
+</footer>
 
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>About the Project</h2>
-                    <p class="lead">We are a collective of artists and builders creating a large-scale interactive installation for Burning Man 2025. Our project aims to explore themes of connection, light, and community.</p>
-                                        <p>As a human-safe simulation of the trees of Elysara - who power their growth under the dark skies by absorbing unwanted memories of those who walk under their leaves (these trees are similar to the symbiotic animals on Terra). Enlightenment is a large botanical sample that appears like a Terran flower, with seating for the weary lifeform to rest under the trunk. The stigma of the flower is a bright light, questing into the darkness for new hosts to bring sustenance - the trunk and leaves are brightly lit in the visible spectra of most species.</p>
-                    <p>As sentient creatures walk up to Enlightenment, the stigma assembly tracks them, providing with soothing light to assuage their worries. Some have reported voices in their heads as the light focuses on them - but strange things happen in the desert. Around the trunk is a settee - decorated with detailed inlays and the artwork of young humans.</p>
-                    <p>Under the shelter of the leaves, there is an endless typewriter, a roll of paper that never runs out and feeds into a locked dropbox at the base. Let go - put your fears, your worries, your guilt into the tree to feed its growth. No one will ever see them, and they will be burned on playa in the box. Let go. Feed the tree.</p>
-                    <h3>Fundraising</h3>
-                    <p>We are applying for honoria for large-scale art.  This only takes us so far though - your support is appreciated.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="videos" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Videos</h2>
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
-                    <div class="ratio ratio-16x9">
-                        <video autoplay loop muted playsinline controls class="w-100">
-                            <source src="static/Burning_Man_Artwork_Video_Generation.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact" class="py-4 bg-dark text-white">
-        <div class="container text-center">
-            <p>Contact us at <a href="mailto:enlightenment@thatcatcamp.com">enlightenment@thatcatcamp.com</a></p>
-            <p>Follow our journey and support us!</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

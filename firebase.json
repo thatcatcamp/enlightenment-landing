@@ -3,6 +3,8 @@
     "public": ".",
     "ignore": [
       "firebase.json",
+        ".venv",
+        "**/*.py",
       "**/.*",
       "**/node_modules/**"
     ],
